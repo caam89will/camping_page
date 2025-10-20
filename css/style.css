@@ -12,7 +12,7 @@
    BODY
 ============================== */
 body {
-  background-color: #fdfcf5; /* color tierra claro */
+  background-color: #47400c; /* color tierra claro */
   color: #333;
   line-height: 1.6;
 }
@@ -64,8 +64,18 @@ body {
 /* ==============================
    SECCIONES
 ============================== */
+
+/* Fade-in para secciones al hacer scroll */
 section {
   padding: 4rem 0;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease-out;
+}
+
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 section h2 {
@@ -202,14 +212,4 @@ footer a:hover {
     align-self: center;
   }
 }
-/* Fade-in para secciones al hacer scroll */
-section {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: all 0.8s ease-out;
-}
 
-section.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
