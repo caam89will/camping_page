@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("productos-container");
 
-  fetch("data/productos.json")
+  fetch("./data/productos.json")
     .then(response => response.json())
     .then(productos => {
       productos.forEach(producto => {
