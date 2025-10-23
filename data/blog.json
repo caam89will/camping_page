@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Cómo encender fuego sin fósforos",
+    "descripcion": "Aprende técnicas naturales para encender fuego en la naturaleza usando pedernal, yesca y materiales comunes.",
+    "imagen": "assets/images/guia-fuego.jpg",
+    "url": "blog.html#fuego"
+  },
+  {
+    "titulo": "10 trucos para acampar como un profesional",
+    "descripcion": "Desde empacar correctamente hasta elegir el mejor lugar para tu carpa.",
+    "imagen": "assets/images/trucos-camping.jpg",
+    "url": "blog.html#trucos"
+  },
+  {
+    "titulo": "Cómo mantener tu comida fresca sin refrigerador",
+    "descripcion": "Métodos naturales y prácticos para conservar tus alimentos durante varios días al aire libre.",
+    "imagen": "assets/images/comida-camping.jpg",
+    "url": "blog.html#comida"
+  }
+]
