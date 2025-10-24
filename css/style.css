@@ -213,4 +213,45 @@ footer a:hover {
     align-self: center;
   }
 }
+/* ==============================
+   BLOG – GUÍA ENCENDER FUEGO
+   ============================== */
+
+/* Contenedor principal del blog */
+.blog-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  color: #212529;
+}
+
+/* Encabezados de artículo */
+.blog-container h2 {
+  color: #2f4f2f; /* Verde bosque oscuro, consistente con secciones */
+  margin-bottom: 1rem;
+}
+
+/* Párrafos y listas */
+.blog-container p, .blog-container ul {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Video e imagen compactos */
+.blog-video, .blog-img {
+  max-width: 500px;
+  width: 100%;
+  margin: 1.5rem auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Botones de acción */
+.blog-container .btn-success {
+  margin-top: 0.5rem;
+}
 
