@@ -2,19 +2,19 @@
   {
     "nombre": "Carpa Ultraliviana 2P",
     "descripcion": "Ideal para senderismo y acampadas. Resistente al agua y fácil de montar.",
-    "imagen": "assets/images/carpa.png",
+    "imagen": "assets/images/guia-carpa.png",
     "url": "blog-carpa-ultraliviana.html"
   },
   {
     "nombre": "Mochila 60L Impermeable",
     "descripcion": "Gran capacidad y comodidad para travesías largas.",
-    "imagen": "assets/images/mochila.png",
+    "imagen": "assets/images/guia-mochila.png",
     "url": "blog-mochila-impermeable.html"
   },
   {
     "nombre": "Linterna LED Recargable",
     "descripcion": "Potente, compacta y con carga solar. Perfecta para noches al aire libre.",
     "imagen": "assets/images/linterna.png",
-    "url": "#"
+    "url": "blog-linterna-led.html"
   }
 ]
