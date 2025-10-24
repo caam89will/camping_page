@@ -213,4 +213,59 @@ footer a:hover {
     align-self: center;
   }
 }
+/* ==============================
+   BODY
+============================== */
+body {
+  background-color: #47400c; /* mantiene el fondo general tierra */
+  color: #333;
+  line-height: 1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ==============================
+   BLOG Y ABOUT – CONTENEDORES
+============================== */
+.blog-container,
+.about-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff; /* fondo blanco */
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  color: #212529;
+}
+
+/* Ajuste de encabezados y párrafos dentro de blog y about */
+.blog-container h2,
+.about-container h2 {
+  color: #2f4f2f;
+  margin-bottom: 1rem;
+}
+
+.blog-container p,
+.about-container p,
+.blog-container ul,
+.about-container ul {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Imagenes centradas en blog y about */
+.blog-img,
+.about-img {
+  max-width: 500px;
+  width: 100%;
+  margin: 1.5rem auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Botones en blog y about */
+.blog-container .btn-success,
+.about-container .btn-success {
+  margin-top: 0.5rem;
+}
 
