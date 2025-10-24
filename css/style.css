@@ -224,48 +224,79 @@ body {
 }
 
 /* ==============================
-   BLOG Y ABOUT – CONTENEDORES
+   BLOG – ESTRUCTURA Y ESTILOS
 ============================== */
-.blog-container,
-.about-container {
+.blog-container {
   max-width: 900px;
   margin: 2rem auto;
   padding: 2rem;
-  background-color: #ffffff; /* fondo blanco */
+  background-color: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   color: #212529;
 }
 
-/* Ajuste de encabezados y párrafos dentro de blog y about */
-.blog-container h2,
-.about-container h2 {
+.blog-container h2 {
   color: #2f4f2f;
   margin-bottom: 1rem;
 }
 
 .blog-container p,
-.about-container p,
-.blog-container ul,
-.about-container ul {
+.blog-container ul {
   margin-bottom: 1rem;
   line-height: 1.6;
 }
 
-/* Imagenes centradas en blog y about */
-.blog-img,
-.about-img {
+.blog-container .btn-success {
+  margin-top: 0.5rem;
+}
+
+.blog-img {
   max-width: 500px;
   width: 100%;
   margin: 1.5rem auto;
   display: block;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+/* ==============================
+   SOBRE NOSOTROS – ESTRUCTURA Y ESTILOS
+============================== */
+.about-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  color: #212529;
 }
 
-/* Botones en blog y about */
-.blog-container .btn-success,
-.about-container .btn-success {
-  margin-top: 0.5rem;
+.about-container h2 {
+  color: #2f4f2f;
+  margin-bottom: 1rem;
 }
 
+.about-container p,
+.about-container ul {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.about-container .team-member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.about-container .team-member img {
+  border-radius: 50%;
+  margin-right: 1rem;
+  width: 80px;
+  height: 80px;
+}
+
+.about-container .team-member h3 {
+  margin: 0;
+  color: #2f4f2f;
+}
