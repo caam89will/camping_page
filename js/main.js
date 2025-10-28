@@ -49,7 +49,7 @@ function loadComponent(elementId, url, callback) {
  * Añade la clase 'active' al enlace de navegación de la página actual.
  */
 function activateCurrentNavLink() {
-    const currentPage = window.location.pathname.split("/").pop() || "index.html";
+    const currentPage = window.location.pathname.split("/").pop() || "index.php";
     const navLink = document.querySelector(`.navbar-nav .nav-link[href="${currentPage}"]`);
     if (navLink) {
         navLink.classList.add('active');
