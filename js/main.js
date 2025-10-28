@@ -61,7 +61,7 @@ function activateCurrentNavLink() {
  * @param {HTMLElement} container - El elemento contenedor donde se insertarán las tarjetas.
  */
 function loadProductsIntoPage(container) {
-    fetch("./data/productos.json")
+    fetch("./posts.json")
         .then(response => response.json())
         .then(productos => {
             container.innerHTML = ''; // Limpiar por si acaso
@@ -94,7 +94,7 @@ function loadProductShowcase() {
 
     if (!container || !showcaseBar || !closeBtn) return;
 
-    fetch('./data/productos.json')
+    fetch('./posts.json')
         .then(response => response.json())
         .then(productos => {
             productos.forEach(producto => {

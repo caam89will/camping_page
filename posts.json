@@ -1,0 +1,72 @@
+[
+  {
+    "id": "prod001",
+    "nombre": "Carpa Ultraliviana 2 Personas",
+    "imagen": "assets/images/guia-carpa.png",
+    "url": "blog-carpa-ultraliviana.php",
+    "descripcion_corta": "Carpa ultraligera para dos personas, ideal para trekking y camping."
+  },
+  {
+    "id": "prod002",
+    "nombre": "Mochila 60L Impermeable para Trekking",
+    "imagen": "assets/images/guia-mochila.png",
+    "url": "blog-mochila-impermeable.php",
+    "descripcion_corta": "Mochila de gran capacidad, resistente al agua, para viajes largos."
+  },
+  {
+    "id": "prod003",
+    "nombre": "Kit de Fuego para Supervivencia",
+    "imagen": "assets/images/guia-fuego.png",
+    "url": "blog-fuego.php",
+    "descripcion_corta": "Iniciador de fuego con pedernal, esencial para cualquier emergencia."
+  },
+  {
+    "id": "prod004",
+    "nombre": "Caña de Pescar Telescópica Profesional",
+    "imagen": "assets/images/cana-pescar.png",
+    "url": "blog-cana-pescar.php",
+    "descripcion_corta": "Caña de pescar portátil y resistente para tus aventuras de pesca."
+  },
+  {
+    "id": "prod005",
+    "nombre": "Herramienta Multiuso 18 en 1",
+    "imagen": "assets/images/herramienta-multiuso.png",
+    "url": "blog-herramienta-multiuso.php",
+    "descripcion_corta": "Compacta y versátil, indispensable para cualquier situación outdoor."
+  },
+  {
+    "id": "prod006",
+    "nombre": "Silla Plegable Ultraligera de Camping",
+    "imagen": "assets/images/silla-plegable.png",
+    "url": "blog-silla-plegable.php",
+    "descripcion_corta": "Comodidad instantánea en cualquier lugar, fácil de transportar."
+  },
+  {
+    "id": "prod007",
+    "nombre": "Señuelos de Pesca Realistas (Kit 10 pzs)",
+    "imagen": "assets/images/senuelos-pesca.png",
+    "url": "blog-senuelos-pesca.php",
+    "descripcion_corta": "Kit de señuelos articulados para atraer a los depredadores más esquivos."
+  },
+  {
+    "id": "prod008",
+    "nombre": "Caja Organizadora de Aparejos de Pesca",
+    "imagen": "assets/images/caja-pesca.png",
+    "url": "blog-caja-pesca.php",
+    "descripcion_corta": "Caja impermeable con compartimentos ajustables para todos tus accesorios."
+  },
+  {
+    "id": "prod009",
+    "nombre": "Línea de Pesca Trenzada de Alta Resistencia",
+    "imagen": "assets/images/linea-pesca.png",
+    "url": "blog-linea-pesca.php",
+    "descripcion_corta": "Línea de 150m sin elasticidad para una sensibilidad y clavada perfectas."
+  },
+  {
+    "id": "prod010",
+    "nombre": "Guantes de Pesca con Protección UV",
+    "imagen": "assets/images/guantes-pesca.png",
+    "url": "blog-guantes-pesca.php",
+    "descripcion_corta": "Protege tus manos del sol y mejora el agarre de tu caña y capturas."
+  }
+]
