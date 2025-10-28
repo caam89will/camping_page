@@ -1,0 +1,83 @@
+<?php
+session_start(); // Necesario para leer los mensajes de sesión
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linterna LED Recargable Potente | Tienda Outdoor Chile</title>
+  <meta name="description" content="Descubre la Linterna LED Recargable más potente para camping, senderismo o emergencias. Alta luminosidad, batería de larga duración y diseño resistente.">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Placeholder para el Navbar -->
+  <div id="header-placeholder"></div>
+
+  <!-- Hero -->
+  <section class="hero-producto text-white text-center py-5" style="background-image: url('assets/images/linterna.png'); background-size: cover; background-position: center; padding-top: 56px;">
+    <div class="container">
+      <h1 class="fw-bold display-5">Linterna LED Recargable Potente</h1>
+      <p class="lead">Ilumina cada paso de tu aventura con energía y precisión 🔦</p>
+    </div>
+  </section>
+
+  <!-- Contenido -->
+  <main class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h2 class="fw-bold mb-3">La luz que necesitas en cualquier situación</h2>
+        <p>
+          La <strong>Linterna LED Recargable</strong> combina potencia, resistencia y autonomía, siendo 
+          una herramienta esencial para actividades como <em>camping, senderismo o emergencias</em>. 
+          Gracias a su haz de luz ajustable y batería recargable USB, nunca te quedarás a oscuras 
+          cuando más la necesites.
+        </p>
+
+        <h3 class="fw-bold mt-4">Características principales</h3>
+        <ul>
+          <li>💡 Potencia de hasta 10.000 lúmenes reales.</li>
+          <li>🔋 Batería recargable por USB de larga duración.</li>
+          <li>💧 Resistencia al agua y al polvo (IPX6).</li>
+          <li>⚙️ 4 modos de iluminación: alta, media, baja y SOS.</li>
+          <li>🔦 Cuerpo de aluminio aeronáutico, liviano y duradero.</li>
+        </ul>
+
+        <p>
+          Su diseño compacto y ergonómico permite sujetarla fácilmente, incluso con guantes. 
+          Es perfecta para acampar, realizar caminatas nocturnas o mantener en tu vehículo como linterna de emergencia.  
+          Además, su batería recargable te permite ahorrar dinero y cuidar el medio ambiente 🌱.
+        </p>
+
+        <div class="text-center my-5">
+          <a href="https://s.click.aliexpress.com/e/_c4awSaqr" 
+             class="btn btn-success btn-lg" 
+             target="_blank" 
+             rel="nofollow noopener noreferrer">
+            🛒 Comprar ahora Ya!🛒
+          </a>
+        </div>
+
+        <h3 class="fw-bold mt-5">Consejo Outdoor</h3>
+        <p>
+          Complementa tu equipo con una <a href="blog-mochila-impermeable.php" class="text-success fw-semibold">Mochila 60L Impermeable</a> 
+          y una <a href="blog-carpa-ultraliviana.php" class="text-success fw-semibold">Carpa Ultraliviana</a> 
+          para estar completamente preparado para tus próximas aventuras al aire libre. 
+          La linterna LED es el toque final para garantizar tu seguridad en todo momento.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Placeholder para el Footer -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Placeholder para la Barra de Productos Flotante -->
+  <div id="showcase-placeholder"></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>  
+</body>
+</html>

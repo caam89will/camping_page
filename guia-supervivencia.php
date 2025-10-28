@@ -1,3 +1,6 @@
+<?php
+session_start(); // Necesario para leer los mensajes de sesión
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

@@ -1,0 +1,183 @@
+<?php
+session_start(); // Necesario para leer los mensajes de sesión
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guía Completa de Búsqueda de Oro y Detección de Metales | Tienda Outdoor</title>
+  <meta name="description" content="Aprende a encontrar oro y tesoros con nuestra guía para principiantes. Descubre el mejor detector de metales, equipo de camping y técnicas para tu aventura.">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Placeholder para el Navbar -->
+  <div id="header-placeholder"></div>
+
+  <!-- HERO -->
+  <section class="hero-producto text-white text-center py-5" style="background-image: url('assets/images/guia-oro.png'); background-size: cover; background-position: center;">
+    <div class="container">
+      <h1 class="fw-bold display-5">Guía Definitiva: Búsqueda de Tesoros y Detección de Metales</h1>
+      <p class="lead">Convierte tu pasión por la aventura en una búsqueda de oro exitosa ⛏️</p>
+    </div>
+  </section>
+
+  <!-- VIDEO INFORMATIVO -->
+  <section class="video-section text-center bg-light py-5">
+    <div class="container">
+      <h2 class="fw-bold mb-4">Primeros Pasos en la Detección de Metales</h2>
+      <p class="mb-4 lead">Descubre visualmente los conceptos básicos y el equipo que necesitas para tu primera búsqueda.</p>
+      <div class="ratio ratio-16x9 shadow-lg rounded">
+        <iframe src="https://www.youtube.com/embed/a-4p5sE213I?autoplay=1&mute=1&loop=1&playlist=a-4p5sE213I" 
+                title="Guía para principiantes en detección de metales" 
+                allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contenido Principal -->
+  <main class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <article>
+          <h2 class="fw-bold mb-3">¿Cómo empezar en la detección de metales y búsqueda de oro?</h2>
+          <p>
+            La <strong>búsqueda de tesoros con un detector de metales</strong> es más que un hobby; es una aventura que combina historia, naturaleza y la emoción del descubrimiento. Si sueñas con encontrar reliquias, monedas antiguas o incluso pepitas de oro, esta guía es tu punto de partida.
+          </p>
+
+          <h3 class="fw-bold mt-4">Paso 1: Elige el Detector de Metales Adecuado para Principiantes</h3>
+          <p>
+            No necesitas el equipo más caro para empezar. Un <strong>detector de metales para principiantes con buena sensibilidad y discriminación</strong> es clave. Busca modelos VLF (Very Low Frequency) que son excelentes para monedas y joyas. Si tu objetivo principal es el oro, un <strong>detector de metales especializado en oro</strong> con mayor frecuencia (kHz) será una mejor inversión a largo plazo.
+          </p>
+
+          <div class="card bg-light border-success my-4">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Producto Recomendado: Detector Profesional para Oro</h5>
+              <p>Este modelo es perfecto para quienes se toman en serio la búsqueda de oro. Alta sensibilidad a pequeñas pepitas y fácil de usar en terrenos difíciles.</p>
+              <a href="https://s.click.aliexpress.com/e/_EzgI24L" class="btn btn-success" target="_blank" rel="nofollow noopener">Ver Detector de Oro Profesional</a>
+            </div>
+          </div>
+
+          <h3 class="fw-bold mt-4">Paso 2: El Equipamiento Esencial para el Buscador de Tesoros</h3>
+          <p>
+            Además del detector, necesitarás un kit básico para que tu expedición sea cómoda y productiva.
+          </p>
+          <ul>
+            <li><strong>Pala de excavación o "Pointer":</strong> Una pala pequeña y resistente es fundamental para desenterrar tus hallazgos sin dañarlos.</li>
+            <li><strong>Guantes resistentes:</strong> Protegerán tus manos de cortes y suciedad.</li>
+            <li><strong>Mochila resistente al agua:</strong> Para llevar tu equipo, agua y provisiones. Una <a href="blog-mochila-impermeable.php" class="text-success fw-semibold">mochila de 60L impermeable</a> es ideal para expediciones largas.</li>
+            <li><strong>GPS o una buena app de mapas:</strong> Para marcar tus hallazgos y no perderte.</li>
+          </ul>
+
+          <h3 class="fw-bold mt-4">Paso 3: Técnicas de Búsqueda y Dónde Buscar Oro</h3>
+          <p>
+            Investiga sobre lugares con historia: antiguos caminos, zonas de batalla, pueblos abandonados o áreas mineras. Para la <strong>búsqueda de oro en ríos (bateo)</strong>, busca en las curvas internas donde la corriente es más lenta y el oro tiende a depositarse. La paciencia es tu mejor aliada. Barre con el detector lentamente, superponiendo cada pasada.
+          </p>
+
+          <h3 class="fw-bold mt-4">Paso 4: La Aventura del Camping para el Detectorista</h3>
+          <p>
+            Muchas de las mejores zonas de búsqueda están alejadas. Combinar la detección de metales con el camping te permite explorar durante días. Asegúrate de tener el equipo adecuado:
+          </p>
+          <ul>
+            <li>Una <strong>carpa ultraliviana y resistente al clima</strong>. Revisa nuestra <a href="blog-carpa-ultraliviana.php" class="text-success fw-semibold">guía de carpas</a>.</li>
+            <li>Una <strong>linterna LED potente</strong> para las búsquedas al atardecer o en la noche. El modelo recargable es una excelente opción.</li>
+            <li>Un buen saco de dormir y un kit para <a href="blog-fuego.php" class="text-success fw-semibold">hacer fuego de forma segura</a>.</li>
+          </ul>
+
+          <div class="alert alert-warning mt-4" role="alert">
+            <h4 class="alert-heading">¡Importante!</h4>
+            <p>Antes de excavar, investiga la <strong>legislación sobre detección de metales y búsqueda de tesoros</strong> en tu país o región. Pide siempre permiso si estás en una propiedad privada.</p>
+          </div>
+
+          <!-- SECCIÓN DE GUÍAS RELACIONADAS -->
+          <section class="related-guides mt-5 pt-4 border-top">
+            <h3 class="fw-bold text-center mb-4">Sigue Explorando Nuestras Guías</h3>
+            <div class="row g-4">
+              <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                  <img src="assets/images/guia-supervivencia.jpg" class="card-img-top" alt="Guía de Supervivencia en Montaña">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Guía de Supervivencia</h5>
+                    <p class="card-text small">Estar preparado es clave. Aprende a hacer fuego, purificar agua y orientarte.</p>
+                    <a href="guia-supervivencia.php" class="btn btn-outline-success stretched-link">Leer Guía</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                  <img src="assets/images/guia-descanso.jpg" class="card-img-top" alt="Guía de Descanso Outdoor">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Guía para Dormir Cómodo</h5>
+                    <p class="card-text small">Tus expediciones serán mejores si descansas bien. Descubre cómo lograrlo.</p>
+                    <a href="guia-descanso.php" class="btn btn-outline-info stretched-link">Leer Guía</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="text-center my-5">
+            <a href="productos.php" class="btn btn-dark btn-lg">Ver todo el equipamiento para tu aventura</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <!-- Placeholder para el Footer -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Placeholder para la Barra de Productos Flotante -->
+  <div id="showcase-placeholder"></div>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+```
+
+### 2. Actualización de `guias.html` para Enlazar a la Nueva Guía
+
+Ahora, modificaremos la tarjeta correspondiente en `guias.html` para que el botón "Leer más" apunte a nuestro nuevo y completo artículo.
+
+```diff
+--- a/c:/Users/chris/Desktop/PROYECTOS/camping_site/guias.html
++++ b/c:/Users/chris/Desktop/PROYECTOS/camping_site/guias.html
+@@ -87,7 +87,7 @@
+                Si planeas una <strong>expedición a la sierra o zonas mineras</strong>, descubre qué equipo necesitas: detectores de metales profesionales,
+                carpas impermeables y mochilas resistentes para almacenar tus hallazgos.
+              </p>
+-              <a href="guia-oro.html" class="btn btn-outline-warning">Leer más</a>
++              <a href="guia-oro.html" class="btn btn-outline-warning">Leer la guía completa</a>
+             </div>
+           </div>
+         </div>
+
+```
+
+### Estrategia SEO y de Intención de Compra Aplicada:
+
+1.  **Título y Descripción Optimizados:** El `<title>` y la `<meta name="description">` atacan directamente las palabras clave principales: "búsqueda de oro", "detección de metales", "guía completa", "detector de metales".
+2.  **Palabras Clave de Cola Larga:** A lo largo del texto, se usan frases que los usuarios realmente buscan:
+    *   "cómo empezar en la detección de metales"
+    *   "detector de metales adecuado para principiantes"
+    *   "dónde buscar oro en ríos"
+    *   "equipamiento esencial para el buscador de tesoros"
+    *   "legislación sobre detección de metales"
+3.  **Contenido Estructurado y Escaneable:** El uso de `H2`, `H3`, listas (`<ul>`) y párrafos cortos facilita la lectura tanto para los usuarios como para los motores de búsqueda. Google valora el contenido bien estructurado.
+4.  **Intención de Compra Directa:**
+    *   Se inserta una tarjeta de "Producto Recomendado" con un enlace de afiliado o a un producto propio. El llamado a la acción es claro: "Ver Detector de Oro Profesional".
+    *   Se enlaza internamente a otros productos/guías relevantes (`blog-mochila-impermeable.html`, `blog-carpa-ultraliviana.html`), creando una red de contenido que mantiene al usuario en el sitio y distribuye la "autoridad" (link juice).
+5.  **Contenido de Valor:** La guía no solo intenta vender, sino que educa. Habla de técnicas, de legislación y de cómo combinar el hobby con el camping. Esto genera confianza y posiciona tu sitio como una autoridad en el nicho.
+
+Con esta nueva página, tienes una base sólida para atraer a un público muy específico y con un alto interés en adquirir el equipamiento que recomiendas, logrando así el objetivo de indexación masiva y conversión.
+
+<!--
+[PROMPT_SUGGESTION]¿Cómo puedo crear una nueva página de guía para "Supervivencia en la Montaña" siguiendo esta misma estructura?[/PROMPT_SUGGESTION]
+[PROMPT_SUGGESTION]Optimiza la imagen `guia-oro.png` para la web y explícame la importancia de los atributos alt para el SEO.[/PROMPT_SUGGESTION]
+-->

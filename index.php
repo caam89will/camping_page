@@ -59,17 +59,17 @@ session_start(); // Necesario para leer los mensajes de sesión
         <div class="col-md-4">
           <h5 class="fw-bold">Cómo elegir tu carpa ideal</h5>
           <p>Aprende qué factores considerar al momento de comprar una carpa según el clima y tipo de terreno.</p>
-          <a href="blog.html" class="text-success fw-semibold">Leer más →</a>
+          <a href="blog.php" class="text-success fw-semibold">Leer más →</a>
         </div>
         <div class="col-md-4">
           <h5 class="fw-bold">Checklist esencial para acampar</h5>
           <p>No olvides nada en tu próxima aventura con esta lista práctica de imprescindibles.</p>
-          <a href="blog.html" class="text-success fw-semibold">Leer más →</a>
+          <a href="blog.php" class="text-success fw-semibold">Leer más →</a>
         </div>
         <div class="col-md-4">
           <h5 class="fw-bold">Curso online de supervivencia</h5>
           <p>Descubre técnicas de supervivencia y orientación con este curso digital de Hotmart.</p>
-          <a href="blog.html" class="text-success fw-semibold">Acceder al curso →</a>
+          <a href="blog.php" class="text-success fw-semibold">Acceder al curso →</a>
         </div>
       </div>
     </div>

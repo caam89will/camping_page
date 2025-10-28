@@ -1,0 +1,130 @@
+<?php
+session_start(); // Necesario para leer los mensajes de sesión
+?>
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cómo encender fuego sin fósforos | Blog Outdoor</title>
+  <meta name="description" content="Aprende cómo encender fuego sin fósforos de manera segura y efectiva. Técnicas de supervivencia y consejos outdoor para campistas.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <!-- Placeholder para el Navbar -->
+  <div id="header-placeholder"></div>
+
+  <div class="text-center my-4" style="padding-top: 70px;">
+    <video controls autoplay muted loop class="rounded shadow-sm w-100" style="max-width: 600px;">
+        <source src="https://video.aliexpress-media.com/play/u/ae_sg_item/3000910296064/p/1/e/6/t/10301/4000301672945.mp4?from=chrome&definition=h265" type="video/mp4">
+        Tu navegador no soporta la reproducción de video.
+    </video>
+    </div>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container" style="padding-top: 0;">
+      <h1 class="display-5 fw-bold">Cómo encender fuego sin fósforos</h1>
+      <p class="lead">Técnicas de supervivencia, seguridad y recursos naturales para el campista moderno.</p>
+    </div>
+  </section>
+
+  <!-- CONTENIDO DEL BLOG -->
+<main class="blog-container my-5">
+  <article class="mb-5">
+    <h2>🔥 Guía completa para encender fuego sin fósforos</h2>
+    
+    <p>Encender fuego sin fósforos puede parecer difícil, pero con las técnicas correctas y un poco de práctica, cualquier persona puede dominar esta habilidad esencial de supervivencia. Ya sea en excursiones, campamentos o situaciones de emergencia, saber generar fuego asegura noches cálidas y seguras.</p>
+
+    <p>Existen diversas técnicas: desde pedernal y acero, hasta métodos naturales con fricción de madera o lupas solares. La clave siempre es la <strong>seguridad y preparación del entorno</strong>. Escoge un área libre de vegetación seca, ten agua cerca y apaga bien las brasas al terminar.</p>
+
+    <!-- Imagen de la herramienta -->
+    <div class="text-center my-4">
+      <img src="https://ae01.alicdn.com/kf/S05661c463ac544fcadaf4ac25e5156acs.jpg_280x280.jpg" 
+           alt="Kit de encendido de fuego" 
+           class="blog-img rounded shadow-sm mb-3">
+      <br>
+      <a href="https://s.click.aliexpress.com/e/_c2Qz9n0R" 
+         target="_blank" 
+         class="btn btn-success btn-lg shadow-sm">
+        🔥 Ver herramienta de encendido ahora!
+      </a>
+    </div>
+
+    <p>Además, puedes usar yesca natural como hojas secas, algodón o cortezas de abedul. Esta herramienta es útil en <strong>todos los escenarios</strong>, incluso si se humedece por la lluvia, ya que seguirá encendiendo fuego, a diferencia de un fósforo convencional. La práctica constante mejora tus habilidades y te prepara para cualquier aventura outdoor.</p>
+
+    <p>💡 <strong>Consejo de experto:</strong> Siempre transporta tu kit en un lugar seco y seguro, y combina técnicas modernas con métodos primitivos para desarrollar experiencia completa.</p>
+  </article>
+</main>
+
+
+    <!-- FORMULARIO PARA NUEVAS PUBLICACIONES -->
+    <section class="my-5">
+      <h4>✍️ Agregar nueva publicación</h4>
+      <form id="postForm" class="mb-4">
+        <input type="text" id="titulo" class="form-control mb-2" placeholder="Título del post" required>
+        <textarea id="contenido" class="form-control mb-2" placeholder="Escribe tu contenido aquí..." rows="4" required></textarea>
+        <button type="submit" class="btn btn-primary">Publicar</button>
+      </form>
+      <div id="publicaciones"></div>
+    </section>
+
+    <!-- SECCIÓN DE COMENTARIOS -->
+    <section class="mt-5">
+      <h4>💬 Comentarios</h4>
+      <form id="commentForm" class="mb-3">
+        <input type="text" id="nombre" class="form-control mb-2" placeholder="Tu nombre" required>
+        <textarea id="comentario" class="form-control mb-2" placeholder="Escribe tu comentario..." rows="3" required></textarea>
+        <button type="submit" class="btn btn-outline-success">Comentar</button>
+      </form>
+      <ul id="listaComentarios" class="list-group"></ul>
+    </section>
+  </main>
+
+  <!-- Placeholder para el Footer -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Placeholder para la Barra de Productos Flotante -->
+  <div id="showcase-placeholder"></div>
+  <script>
+    // 🧾 Guardar publicaciones en localStorage (modo temporal)
+    const form = document.getElementById("postForm");
+    const publicaciones = document.getElementById("publicaciones");
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const titulo = document.getElementById("titulo").value;
+      const contenido = document.getElementById("contenido").value;
+      const fecha = new Date().toLocaleString();
+      const postHTML = `
+        <div class="card mb-3 shadow-sm">
+          <div class="card-body">
+            <h5>${titulo}</h5>
+            <small class="text-muted">${fecha}</small>
+            <p>${contenido}</p>
+          </div>
+        </div>`;
+      publicaciones.innerHTML = postHTML + publicaciones.innerHTML;
+      form.reset();
+    });
+
+    // 💬 Sistema de comentarios local (temporal)
+    const commentForm = document.getElementById("commentForm");
+    const lista = document.getElementById("listaComentarios");
+
+    commentForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const nombre = document.getElementById("nombre").value;
+      const comentario = document.getElementById("comentario").value;
+      const fecha = new Date().toLocaleString();
+      const li = document.createElement("li");
+      li.className = "list-group-item";
+      li.innerHTML = `<strong>${nombre}</strong> (${fecha}): ${comentario}`;
+      lista.prepend(li);
+      commentForm.reset();
+    });
+  </script>
+</body>
+</html>
