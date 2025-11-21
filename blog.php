@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="es" data-theme="light">
 <head>
@@ -25,44 +26,13 @@
   <section class="py-5">
     <div class="container">
       <h2 class="fw-bold text-center mb-5">Últimos Artículos</h2>
-      <div class="row g-4">
-
-        <!-- Artículo 1 -->
-        <div class="col-md-4">
-          <div class="card shadow-sm border-0">
-            <img src="assets/images/guia-fuego.png" class="card-img-top" alt="Cómo encender fuego sin fósforos">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Cómo encender fuego sin fósforos</h5>
-              <p class="card-text">Aprende técnicas seguras y efectivas para encender fuego en condiciones extremas, incluso sin fósforos.</p>
-              <a href="blog-fuego.php" class="btn btn-outline-success">Leer más</a>
-            </div>
+      <div class="row g-4" id="blog-posts-container">
+        <!-- Los artículos se cargarán aquí dinámicamente -->
+        <div class="text-center">
+          <div class="spinner-border text-success" role="status">
+            <span class="visually-hidden">Cargando artículos...</span>
           </div>
         </div>
-
-        <!-- Artículo 2 -->
-        <div class="col-md-4">
-          <div class="card shadow-sm border-0">
-            <img src="assets/images/guia-carpa.png" class="card-img-top" alt="Elegir la carpa ideal">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Cómo elegir tu carpa ideal</h5>
-              <p class="card-text">Descubre cómo seleccionar la carpa adecuada según el clima, terreno y duración de tu viaje.</p>
-              <a href="blog-carpa-ultraliviana.php" class="btn btn-outline-success">Leer más</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Artículo 3 -->
-        <div class="col-md-4">
-          <div class="card shadow-sm border-0">
-            <img src="assets/images/guia-mochila.png" class="card-img-top" alt="Preparar tu mochila para el viaje">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Prepara tu mochila como un experto</h5>
-              <p class="card-text">Aprende a organizar y distribuir el peso de tu mochila para tus travesías largas sin esfuerzo.</p>
-              <a href="blog-mochila-impermeable.php" class="btn btn-outline-success">Leer más</a>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
   </section>
@@ -84,8 +54,38 @@
 
   <!-- Placeholder para la Barra de Productos Flotante -->
   <div id="showcase-placeholder"></div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const postsContainer = document.getElementById("blog-posts-container");
+      
+      fetch('data/blog.json')
+        .then(response => response.json())
+        .then(posts => {
+          postsContainer.innerHTML = ''; // Limpiar el spinner
+          posts.reverse().forEach(post => { // reverse() para mostrar el más reciente primero
+            const postCard = document.createElement("div");
+            postCard.className = "col-md-4";
+            postCard.innerHTML = `
+              <div class="card shadow-sm border-0 h-100">
+                <img src="${post.imagen_destacada}" class="card-img-top" alt="${post.titulo}">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title fw-bold">${post.titulo}</h5>
+                  <p class="card-text">${post.descripcion}</p>
+                  <a href="post.php?id=${post.id}" class="btn btn-outline-success mt-auto">Leer más</a>
+                </div>
+              </div>
+            `;
+            postsContainer.appendChild(postCard);
+          });
+        })
+        .catch(error => {
+          console.error("Error cargando posts del blog:", error);
+          postsContainer.innerHTML = '<p class="text-center">No se pudieron cargar los artículos. Inténtalo de nuevo más tarde.</p>';
+        });
+    });
+  </script>
 </body>
 </html>
-    

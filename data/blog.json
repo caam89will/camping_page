@@ -1,20 +1,38 @@
 [
   {
+    "id": 1,
     "titulo": "Cómo encender fuego sin fósforos",
     "descripcion": "Aprende técnicas seguras y efectivas para encender fuego en condiciones extremas, utilizando elementos naturales y métodos alternativos que todo campista debería conocer.",
-    "imagen": "assets/images/guia-fuego.png",
-    "enlace": "blog-fuego.html"
+    "fecha": "2024-05-21",
+    "autor": "Tienda Outdoor",
+    "imagen_destacada": "assets/images/guia-fuego.png",
+    "contenido_html": "<p>Aquí va el contenido completo de tu artículo sobre cómo encender fuego. Puedes usar <strong>HTML</strong> para dar formato, como párrafos, listas, etc.</p><p>Por ejemplo, puedes explicar la técnica del arco, la fricción directa, o cómo usar una lupa.</p><p>La clave siempre es la seguridad y la preparación del entorno.</p>",
+    "affiliate_image": "",
+    "affiliate_link": "",
+    "affiliate_button_text": ""
   },
   {
+    "id": 2,
     "titulo": "Trucos de camping que te harán la vida más fácil",
     "descripcion": "Descubre ideas ingeniosas y prácticas para organizar tu campamento, mantener tus cosas secas, preparar comida y disfrutar de la naturaleza sin complicaciones.",
-    "imagen": "assets/images/trucos-camping.png",
-    "enlace": "#"
+    "fecha": "2024-05-20",
+    "autor": "Tienda Outdoor",
+    "imagen_destacada": "assets/images/trucos-camping.png",
+    "contenido_html": "<p>Aquí escribe todos tus trucos geniales. Por ejemplo: usar una galleta de sombrero para llevar cosas, usar una botella de plástico como linterna, o cómo hacer un calentador de manos portátil.</p><p>Estos pequeños detalles marcan una gran diferencia en la comodidad de tu aventura.</p>",
+    "affiliate_image": "",
+    "affiliate_link": "",
+    "affiliate_button_text": ""
   },
   {
+    "id": 3,
     "titulo": "Comida deliciosa para tus días de camping",
     "descripcion": "Explora recetas simples y sabrosas que puedes preparar al aire libre con pocos ingredientes y utensilios. ¡Sorprende a tus compañeros de campamento!",
-    "imagen": "assets/images/comida-camping.png",
-    "enlace": "#"
+    "fecha": "2024-05-19",
+    "autor": "Tienda Outdoor",
+    "imagen_destacada": "assets/images/comida-camping.png",
+    "contenido_html": "<p>¡Comparte aquí tus recetas! Por ejemplo: tacos de campamento, s'mores, pan de campamento en una lata, o un delicioso chili cocinado en una fogata.</p><p>Comer bien en la naturaleza es parte de la experiencia.</p>",
+    "affiliate_image": "",
+    "affiliate_link": "",
+    "affiliate_button_text": ""
   }
 ]
