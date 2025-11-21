@@ -19,7 +19,7 @@ session_start(); // Necesario para leer los mensajes de sesión
 
 <body>
   <!-- Placeholder para el Navbar -->
-  <div id="header-placeholder"></div>
+  <div id="header.html-placeholder"></div>
 
   <?php if(isset($_SESSION['message'])): ?>
     <div class="alert alert-<?php echo $_SESSION['message_type']; ?> alert-dismissible fade show text-center m-0" role="alert" style="position: fixed; top: 56px; width: 100%; z-index: 1031;">
