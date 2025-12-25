@@ -64,10 +64,10 @@
   },
   {
     "id": "prod010",
-    "nombre": "Guantes de Pesca con Protección UV",
-    "imagen": "assets/images/guantes-pesca.png",
-    "url": "blog-guantes-pesca.html",
-    "descripcion_corta": "Protege tus manos del sol y mejora el agarre de tu caña y capturas."
+    "nombre": "Cocinilla de Camping Portátil",
+    "imagen": "assets/images/cocinilla-camping.png",
+    "url": "blog-cocinilla-camping.html",
+    "descripcion_corta": "Potente, compacta y resistente al viento. Cocina caliente donde vayas."
   },
   {
     "id": "prod011",
