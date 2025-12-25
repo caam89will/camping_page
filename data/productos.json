@@ -18,17 +18,63 @@
     "url": "blog-linterna-led.html"
   },
   {
+    "nombre": "Kit de Fuego para Supervivencia",
+    "descripcion": "Iniciador de fuego con pedernal, esencial para cualquier emergencia.",
+    "imagen": "assets/images/guia-fuego.png",
+    "url": "blog-fuego.html"
+  },
+  {
     "nombre": "Caña de Pescar Telescópica Profesional",
-    "descripcion": "PHISHGER-caña de pescar telescópica para Surf, vara giratoria de carbono para Surfcasting, Biutifu, para viaje, 3,6/4,2/4,5 m, Power80-150g 30T",
+    "descripcion": "Caña de pescar portátil y resistente para tus aventuras de pesca.",
     "imagen": "assets/images/CAÑA_DE_PESCA.avif",
     "url": "blog-cana-pescar.html"
-  
   },
   {
     "nombre": "Herramienta Multiuso 18 en 1",
-    "descripcion": "SOG-Alicates plegables multiherramienta PowerPint 18 en 1, Mini herramientas de mano EDC, tijeras de bolsillo para acampar al aire libre, Equipments-PP1001 de supervivencia",
+    "descripcion": "Compacta y versátil, indispensable para cualquier situación outdoor.",
     "imagen": "assets/images/tool_18_in_1.avif",
     "url": "blog-herramienta-multiuso.html"
-  
+  },
+  {
+    "nombre": "Silla Plegable Ultraligera de Camping",
+    "descripcion": "Comodidad instantánea en cualquier lugar, fácil de transportar.",
+    "imagen": "assets/images/silla-plegable.avif",
+    "url": "blog-silla-plegable.html"
+  },
+  {
+    "nombre": "Señuelos de Pesca Realistas (Kit 10 pzs)",
+    "descripcion": "Kit de señuelos articulados para atraer a los depredadores más esquivos.",
+    "imagen": "assets/images/senuelos-pesca.png",
+    "url": "blog-senuelos-pesca.html"
+  },
+  {
+    "nombre": "Caja Organizadora de Aparejos de Pesca",
+    "descripcion": "Caja impermeable con compartimentos ajustables para todos tus accesorios.",
+    "imagen": "assets/images/caja-pesca.png",
+    "url": "blog-caja-pesca.html"
+  },
+  {
+    "nombre": "Línea de Pesca Trenzada de Alta Resistencia",
+    "descripcion": "Línea de 150m sin elasticidad para una sensibilidad y clavada perfectas.",
+    "imagen": "assets/images/linea-pesca.png",
+    "url": "blog-linea-pesca.html"
+  },
+  {
+    "nombre": "Guantes de Pesca con Protección UV",
+    "descripcion": "Protege tus manos del sol y mejora el agarre de tu caña y capturas.",
+    "imagen": "assets/images/guantes-pesca.png",
+    "url": "blog-guantes-pesca.html"
+  },
+  {
+    "nombre": "Colchón Inflable Doble Altura",
+    "descripcion": "Máximo confort para tus noches de camping. Fácil de inflar y transportar.",
+    "imagen": "assets/images/colchon-inflable.png",
+    "url": "blog-colchon-inflable.html"
+  },
+  {
+    "nombre": "Saco de Dormir Térmico -5°C",
+    "descripcion": "Mantente cálido en las noches más frías. Diseño momia compacto y ligero.",
+    "imagen": "assets/images/saco-dormir.png",
+    "url": "blog-saco-dormir.html"
   }
 ]
