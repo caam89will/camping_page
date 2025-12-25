@@ -20,7 +20,7 @@ session_start(); // Necesario para leer los mensajes de sesión
   <!-- Hero -->
   <section class="hero-producto text-white text-center py-5" style="background-image: url('assets/images/guia-mochila.png'); background-size: cover; background-position: center; padding-top: 56px;">
     <div class="container">
-      <h1 class="fw-bold display-5">Mochila 60L Impermeable</h1>
+      <h1 class="fw-bold display-5">Mochila 70L Impermeable</h1>
       <p class="lead">Resistencia, capacidad y confort en un solo diseño 🎒💧</p>
     </div>
   </section>
@@ -39,7 +39,7 @@ session_start(); // Necesario para leer los mensajes de sesión
 
         <h3 class="fw-bold mt-4">Características destacadas</h3>
         <ul>
-          <li>✔️ Capacidad total: 60 litros.</li>
+          <li>✔️ Capacidad total: 70 litros.</li>
           <li>✔️ Material impermeable y antidesgarro.</li>
           <li>✔️ Espalda acolchada y ventilada para máxima comodidad.</li>
           <li>✔️ Cinturón lumbar ajustable con soporte.</li>
@@ -66,7 +66,7 @@ session_start(); // Necesario para leer los mensajes de sesión
         <p>
           Antes de salir, organiza tu mochila con el sistema <strong>peso bajo y centrado</strong>: 
           los objetos más pesados cerca de tu espalda y al centro. Y no olvides llevar tu 
-          <a href="blog-carpa-ultraliviana.php" class="text-success fw-semibold">carpa ultraliviana</a> 
+          <a href="blog-carpa-ultraliviana.html" class="text-success fw-semibold">carpa ultraliviana</a> 
           para descansar cómodo tras una jornada intensa.
         </p>
       </div>
