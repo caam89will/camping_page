@@ -31,42 +31,42 @@
     "id": "prod005",
     "nombre": "Herramienta Multiuso 18 en 1",
     "imagen": "assets/images/herramienta-multiuso.png",
-    "url": "blog-herramienta-multiuso.php",
+    "url": "blog-herramienta-multiuso.html",
     "descripcion_corta": "Compacta y versátil, indispensable para cualquier situación outdoor."
   },
   {
     "id": "prod006",
     "nombre": "Silla Plegable Ultraligera de Camping",
     "imagen": "assets/images/silla-plegable.png",
-    "url": "blog-silla-plegable.php",
+    "url": "blog-silla-plegable.html",
     "descripcion_corta": "Comodidad instantánea en cualquier lugar, fácil de transportar."
   },
   {
     "id": "prod007",
     "nombre": "Señuelos de Pesca Realistas (Kit 10 pzs)",
     "imagen": "assets/images/senuelos-pesca.png",
-    "url": "blog-senuelos-pesca.php",
+    "url": "blog-senuelos-pesca.html",
     "descripcion_corta": "Kit de señuelos articulados para atraer a los depredadores más esquivos."
   },
   {
     "id": "prod008",
     "nombre": "Caja Organizadora de Aparejos de Pesca",
     "imagen": "assets/images/caja-pesca.png",
-    "url": "blog-caja-pesca.php",
+    "url": "blog-caja-pesca.html",
     "descripcion_corta": "Caja impermeable con compartimentos ajustables para todos tus accesorios."
   },
   {
     "id": "prod009",
     "nombre": "Línea de Pesca Trenzada de Alta Resistencia",
     "imagen": "assets/images/linea-pesca.png",
-    "url": "blog-linea-pesca.php",
+    "url": "blog-linea-pesca.html",
     "descripcion_corta": "Línea de 150m sin elasticidad para una sensibilidad y clavada perfectas."
   },
   {
     "id": "prod010",
     "nombre": "Guantes de Pesca con Protección UV",
     "imagen": "assets/images/guantes-pesca.png",
-    "url": "blog-guantes-pesca.php",
+    "url": "blog-guantes-pesca.html",
     "descripcion_corta": "Protege tus manos del sol y mejora el agarre de tu caña y capturas."
   }
 ]
