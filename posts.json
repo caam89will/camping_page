@@ -68,5 +68,19 @@
     "imagen": "assets/images/guantes-pesca.png",
     "url": "blog-guantes-pesca.html",
     "descripcion_corta": "Protege tus manos del sol y mejora el agarre de tu caña y capturas."
+  },
+  {
+    "id": "prod011",
+    "nombre": "Colchón Inflable Doble Altura",
+    "imagen": "assets/images/colchon-inflable.png",
+    "url": "blog-colchon-inflable.html",
+    "descripcion_corta": "Máximo confort para tus noches de camping. Fácil de inflar y transportar."
+  },
+  {
+    "id": "prod012",
+    "nombre": "Saco de Dormir Térmico -5°C",
+    "imagen": "assets/images/saco-dormir.png",
+    "url": "blog-saco-dormir.html",
+    "descripcion_corta": "Mantente cálido en las noches más frías. Diseño momia compacto y ligero."
   }
 ]
