@@ -65,7 +65,7 @@
   {
     "id": "prod010",
     "nombre": "Cocinilla de Camping Portátil",
-    "imagen": "assets/images/cocinilla-camping.png",
+    "imagen": "assets/images/cocinilla-camping.avif",
     "url": "blog-cocinilla-camping.html",
     "descripcion_corta": "Potente, compacta y resistente al viento. Cocina caliente donde vayas."
   },
