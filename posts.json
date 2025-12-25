@@ -3,21 +3,21 @@
     "id": "prod001",
     "nombre": "Carpa Ultraliviana 2 Personas",
     "imagen": "assets/images/guia-carpa.png",
-    "url": "blog-carpa-ultraliviana.php",
+    "url": "blog-carpa-ultraliviana.html",
     "descripcion_corta": "Carpa ultraligera para dos personas, ideal para trekking y camping."
   },
   {
     "id": "prod002",
     "nombre": "Mochila 60L Impermeable para Trekking",
     "imagen": "assets/images/guia-mochila.png",
-    "url": "blog-mochila-impermeable.php",
+    "url": "blog-mochila-impermeable.html",
     "descripcion_corta": "Mochila de gran capacidad, resistente al agua, para viajes largos."
   },
   {
     "id": "prod003",
     "nombre": "Kit de Fuego para Supervivencia",
     "imagen": "assets/images/guia-fuego.png",
-    "url": "blog-fuego.php",
+    "url": "blog-fuego.html",
     "descripcion_corta": "Iniciador de fuego con pedernal, esencial para cualquier emergencia."
   },
   {
