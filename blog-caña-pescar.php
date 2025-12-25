@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caña de Pescar Telescópica | Pesca Deportiva y Recreativa</title>
+
+  <meta name="description" content="Descubre la caña de pescar telescópica ideal para pesca deportiva y recreativa. Ligera, resistente y fácil de transportar. Perfecta para río, lago o mar.">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Placeholder Navbar -->
+  <div id="header-placeholder"></div>
+
+  <!-- Hero del Producto -->
+  <section class="hero-producto text-white text-center py-5"
+    style="background-image: url('assets/images/CAÑA_DE_PESCAR.avif'); background-size: cover; background-position: center; padding-top: 56px;">
+    <div class="container">
+      <h1 class="fw-bold display-5">Caña de Pescar Telescópica</h1>
+      <p class="lead">Precisión, resistencia y portabilidad para cada jornada 🎣🌊</p>
+    </div>
+  </section>
+
+  <!-- Video del Producto -->
+  <div class="text-center my-4">
+    <video controls autoplay muted loop class="rounded shadow-sm w-100" style="max-width: 600px;">
+      <source src="https://video.aliexpress-media.com/play/u/ae_sg_item/xxxx.mp4" type="video/mp4">
+      Tu navegador no soporta la reproducción de video.
+    </video>
+  </div>
+
+  <!-- Contenido del Blog -->
+  <main class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+
+        <h2 class="fw-bold mb-3">¿Por qué elegir una buena caña de pescar?</h2>
+        <p>
+          Ya sea que practiques <strong>pesca deportiva o recreativa</strong>, contar con una
+          <strong>caña de pescar confiable</strong> marca la diferencia.  
+          Esta caña telescópica está pensada para pescadores que buscan 
+          <em>control, sensibilidad y facilidad de transporte</em>, sin complicarse.
+        </p>
+
+        <p>
+          Su diseño compacto permite llevarla cómodamente en mochila o bolso, 
+          siendo ideal para escapadas rápidas, viajes o sesiones improvisadas al amanecer.
+        </p>
+
+        <h3 class="fw-bold mt-4">Características principales</h3>
+        <ul>
+          <li>✔️ Diseño telescópico fácil de transportar.</li>
+          <li>✔️ Material resistente y liviano.</li>
+          <li>✔️ Excelente sensibilidad para detectar picadas.</li>
+          <li>✔️ Apta para río, lago y pesca costera.</li>
+          <li>✔️ Ideal para principiantes y pescadores experimentados.</li>
+        </ul>
+
+        <p>
+          Esta caña combina <strong>durabilidad y rendimiento</strong>, permitiendo 
+          una experiencia de pesca fluida, cómoda y efectiva.  
+          Perfecta para quienes buscan disfrutar sin cargar equipo pesado.
+        </p>
+
+        <!-- CTA -->
+        <div class="text-center my-5">
+          <a href="https://s.click.aliexpress.com/e/_c44t4snb"
+             class="btn btn-success btn-lg"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            🎣 Ver caña de pescar al mejor precio 🎣
+          </a>
+        </div>
+
+        <h3 class="fw-bold mt-5">Consejo del pescador experto</h3>
+        <p>
+          Para alargar la vida útil de tu caña, límpiala con agua dulce después de cada uso,
+          especialmente si pescas en el mar. Guárdala siempre seca y acompáñala con un
+          <strong>carrete adecuado</strong> para lograr un mejor equilibrio y control.
+        </p>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Barra de Productos -->
+  <div id="showcase-placeholder"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

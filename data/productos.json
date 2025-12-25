@@ -16,5 +16,11 @@
     "descripcion": "Potente, compacta y con carga solar. Perfecta para noches al aire libre.",
     "imagen": "assets/images/linterna.png",
     "url": "blog-linterna-led.html"
+  },
+  {
+    "nombre": "Caña de Pescar Telescópica Profesional",
+    "descripcion": "PHISHGER-caña de pescar telescópica para Surf, vara giratoria de carbono para Surfcasting, Biutifu, para viaje, 3,6/4,2/4,5 m, Power80-150g 30T",
+    "imagen": "assets/images/CAÑA_DE_PESCAR.avif",
+    "url": "blog-linterna-led.html"
   }
 ]
