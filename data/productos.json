@@ -82,5 +82,17 @@
     "descripcion": "Mantente limpio donde vayas. Ducha portátil con bomba sumergible y batería USB.",
     "imagen": "assets/images/ducha-portatil.avif",
     "url": "blog-ducha-portatil.html"
+  },
+  {
+    "nombre": "Detector de Metales Profesional",
+    "descripcion": "Encuentra tesoros, monedas y oro. Alta sensibilidad y bobina impermeable.",
+    "imagen": "assets/images/detector-metales.avif",
+    "url": "blog-detector-metales.html"
+  },
+  {
+    "nombre": "Botella con Filtro de Agua",
+    "descripcion": "Agua potable al instante. Elimina 99.9% de bacterias. Ideal para trekking.",
+    "imagen": "assets/images/botella-filtro.avif",
+    "url": "blog-botella-filtro.html"
   }
 ]
